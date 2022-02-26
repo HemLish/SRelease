@@ -1,13 +1,10 @@
-wait(1.2)
-game.StarterGui:SetCore("SendNotification", {
-Title = "INFORMATION";
-Text = "Fixed Lag [GET THE SCRIPT AGAIN]"; 
-Duration = 5;
-})
-setclipboard("https://www.youtube.com/watch?v=Z3Jhomxwqoc&t=6s&ab_channel=HemLish")
-wait(1.2)
-game.StarterGui:SetCore("SendNotification", {
-Title = "LINK";
-Text = "LINK COPIED"; 
-Duration = 5;
-})
+setclipboard("https://link-hub.net/379508/hemlish-cr-script ")
+wait(1)
+local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
+
+Notification.WallNotification("", "UPDATE ! LINK COPIED!", {
+    Duration = 20,
+    TitleSettings = {
+        Enabled = false
+    }
+});
