@@ -34,11 +34,11 @@ discord.BorderColor3 = Color3.fromRGB(68, 65, 59)
 discord.Position = UDim2.new(0.274231434, 0, 0.573463678, 0)
 discord.Size = UDim2.new(0, 192, 0, 30)
 discord.Font = Enum.Font.SourceSans
-discord.Text = "Copy Discord Link"
+discord.Text = "COPY LINK"
 discord.TextColor3 = Color3.fromRGB(255, 255, 255)
 discord.TextSize = 14.000
 discord.MouseButton1Click:Connect(function()
-	setclipboard("https://discord.gg/HepwTzHbzh")
+	setclipboard("https://bio.link/hemlish")
 end)
 
 UICorner_2.Parent = discord
@@ -49,6 +49,6 @@ TextLabel.BorderColor3 = Color3.fromRGB(62, 62, 62)
 TextLabel.Position = UDim2.new(0.397462994, 0, 0.353909492, 0)
 TextLabel.Size = UDim2.new(0, 96, 0, 34)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Key System is down join the discord to see the progress"
+TextLabel.Text = "SCRIPT UPDATED GET IT AGAIN"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 22.000
